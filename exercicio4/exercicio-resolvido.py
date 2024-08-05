@@ -32,3 +32,4 @@ print("\nVocê pode comprar: ")
 for moeda, taxa in moedas.items():
     quantidade = reais / taxa
     print(f"{quantidade:.2f} {moeda}")
+    
